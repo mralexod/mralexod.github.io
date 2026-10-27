@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Чек-лист: как проверить участок под бизнес</title>
+<meta name="description" content="22 пункта проверки участка под склад, производство или автосервис: документы, ВРИ, охранная зона ЛЭП, мощность, подъезд, продавец. Распечатайте и возьмите на просмотр.">
+<meta property="og:title" content="Чек-лист: как проверить участок под бизнес">
+<meta property="og:description" content="Документы, ВРИ, ЛЭП, мощность, подъезд для фур, продавец — что проверить до задатка.">
+<meta property="og:type" content="article">
+<style>
+:root{--bg:#f6f4ef;--card:#fff;--ink:#1d1d1b;--muted:#5f5d57;--line:#e3dfd5;--accent:#2f6b4f;--accent-soft:#e4efe8;--warn:#a2461f;--warn-soft:#f7e7de}
+@media (prefers-color-scheme:dark){:root{--bg:#161614;--card:#21211e;--ink:#eceae4;--muted:#a7a49b;--line:#34332e;--accent:#6fbf96;--accent-soft:#1e3329;--warn:#e5936c;--warn-soft:#3a2419}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:28px 16px 64px}
+header h1{font-size:clamp(26px,6vw,38px);line-height:1.15;margin:0 0 12px}
+.lead{color:var(--muted);margin:0 0 20px}
+.progress{position:sticky;top:0;z-index:2;background:var(--bg);padding:10px 0;border-bottom:1px solid var(--line);margin-bottom:18px;display:flex;align-items:center;gap:12px;font-size:15px}
+.bar{flex:1;height:8px;border-radius:4px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .2s}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 18px 8px;margin:0 0 16px}
+section h2{font-size:20px;margin:0 0 4px}
+section .why{color:var(--muted);font-size:15px;margin:0 0 10px}
+label{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--line);cursor:pointer}
+label:first-of-type{border-top:0}
+input[type=checkbox]{width:22px;height:22px;flex:none;margin-top:2px;accent-color:var(--accent)}
+label b{font-weight:600}
+label small{display:block;color:var(--muted);font-size:14.5px;margin-top:2px}
+input:checked + span{opacity:.55}
+table{width:100%;border-collapse:collapse;font-size:15px;margin:6px 0 12px}
+td,th{border-top:1px solid var(--line);padding:6px 4px;text-align:left}
+.flags{background:var(--warn-soft);border-color:transparent}
+.flags h2{color:var(--warn)}
+.flags ul{margin:6px 0 12px;padding-left:20px}
+.flags li{margin:4px 0}
+.cta{background:var(--accent-soft);border-color:transparent;padding-bottom:18px}
+.cta h2{color:var(--accent)}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;padding:12px 18px;border-radius:10px;margin:8px 8px 0 0}
+@media (prefers-color-scheme:dark){.btn{color:#10261b}}
+.btn.ghost{background:transparent;color:var(--accent);border:1.5px solid var(--accent)}
+footer{color:var(--muted);font-size:13.5px;margin-top:24px}
+a{color:var(--accent)}
+@media print{.progress,.btn,.noprint{display:none}body{background:#fff;color:#000;font-size:13px}section{break-inside:avoid;border-color:#bbb}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>Как проверить участок под бизнес до задатка</h1>
+<p class="lead">Чек-лист для тех, кто ищет землю под склад, производство, автосервис или базу и уже насмотрелся на «кривые документы», странных продавцов и ЛЭП посреди участка. Отмечайте пункты прямо на телефоне или распечатайте и возьмите на просмотр.</p>
+</header>
+
+<div class="progress"><span id="cnt">0 из 0</span><div class="bar"><i id="bar"></i></div><a href="#" class="noprint" id="reset">сбросить</a></div>
+
+<section>
+<h2>1. Документы на землю</h2>
+<p class="why">Здесь отсекается половина вариантов — за 10 минут и бесплатно.</p>
+<label><input type="checkbox"><span><b>Свежая выписка ЕГРН</b><small>Собственник, площадь, обременения (ипотека, аренда, арест). Заказывается онлайн на Госуслугах по кадастровому номеру — не берите выписку «из прошлого года» у продавца.</small></span></label>
+<label><input type="checkbox"><span><b>Границы установлены (межевание)</b><small>В выписке нет записи «граница не установлена». Иначе площадь и контур — на словах.</small></span></label>
+<label><input type="checkbox"><span><b>Категория земли</b><small>Чаще всего «земли промышленности…» или «земли населённых пунктов». Сельхозземля под склад — долгий и не всегда возможный перевод.</small></span></label>
+<label><input type="checkbox"><span><b>Вид разрешённого использования (ВРИ) — под вашу задачу</b><small>Название «коммерческий» ничего не значит, важен код. Примеры: 6.0 — производственная деятельность, 6.9 — склады, 4.9.1.4 — ремонт автомобилей.</small></span></label>
+<label><input type="checkbox"><span><b>Правила землепользования (ПЗЗ) и территориальная зона</b><small>Что и какой высоты можно строить, процент застройки, отступы. Смотрите на сайте администрации округа или в ГПЗУ.</small></span></label>
+</section>
+
+<section>
+<h2>2. Охранные зоны и ограничения</h2>
+<p class="why">ЛЭП, газопровод или водоохранная зона могут съесть край — а могут половину пятна застройки.</p>
+<label><input type="checkbox"><span><b>Зоны с особыми условиями (ЗОУИТ) на карте</b><small>Откройте участок на Национальной системе пространственных данных (nspd.gov.ru) и включите слой зон.</small></span></label>
+<label><input type="checkbox"><span><b>ЛЭП: напряжение и где проходит</b><small>Охранная зона отсчитывается от крайнего провода в обе стороны. Строить капитальные здания в ней нельзя.</small></span></label>
+<table><tr><th>Напряжение линии</th><th>Охранная зона, м</th></tr>
+<tr><td>до 1 кВ</td><td>2</td></tr><tr><td>1–20 кВ</td><td>10</td></tr><tr><td>35 кВ</td><td>15</td></tr><tr><td>110 кВ</td><td>20</td></tr><tr><td>220 кВ</td><td>25</td></tr><tr><td>500 кВ</td><td>30</td></tr></table>
+<label><input type="checkbox"><span><b>Газопровод, кабели, трубопроводы под землёй</b><small>Их не видно на месте — только на карте зон и в выписке.</small></span></label>
+<label><input type="checkbox"><span><b>Водоохранная зона, санитарно-защитные зоны соседей</b><small>Ограничивают производство и стоянки техники.</small></span></label>
+</section>
+
+<section>
+<h2>3. Электричество и коммуникации</h2>
+<p class="why">Самая дорогая «мелочь»: без нужных киловатт склад с холодильником или цех не запустить.</p>
+<label><input type="checkbox"><span><b>Сколько кВт выделено — на бумаге</b><small>Договор техприсоединения или технические условия, а не «столб рядом». Узнайте, сколько стоит и сколько ждать, если нужно больше.</small></span></label>
+<label><input type="checkbox"><span><b>Вода и стоки</b><small>Центральная, скважина, септик — что разрешено под вашу деятельность.</small></span></label>
+<label><input type="checkbox"><span><b>Газ — если нужен для отопления или производства</b><small>Есть ли сеть рядом и кто подключает.</small></span></label>
+</section>
+
+<section>
+<h2>4. Подъезд и место</h2>
+<label><input type="checkbox"><span><b>Дорога выдерживает фуры круглый год</b><small>Асфальт или бетон, а не грунтовка, которую размывает весной.</small></span></label>
+<label><input type="checkbox"><span><b>Съезд с трассы оформлен</b><small>Самовольный съезд могут закрыть. Спросите, кому принадлежит подъездная дорога.</small></span></label>
+<label><input type="checkbox"><span><b>Разворот и стоянка для грузовиков</b><small>20 соток — это примерно 40 × 50 м: прикиньте здание, площадку и разворот фуры.</small></span></label>
+<label><input type="checkbox"><span><b>Рельеф, подтопление, грунт</b><small>Приезжайте после дождя. Низина и торф — дорогой фундамент.</small></span></label>
+<label><input type="checkbox"><span><b>Кто соседи и что у них будет</b><small>Жилая застройка рядом — жалобы на шум и движение техники.</small></span></label>
+</section>
+
+<section>
+<h2>5. Продавец и сделка</h2>
+<label><input type="checkbox"><span><b>Продаёт собственник из выписки</b><small>Или представитель с нотариальной доверенностью — проверьте её на сайте нотариальной палаты.</small></span></label>
+<label><input type="checkbox"><span><b>Нет споров и долгов</b><small>Картотека арбитражных дел (kad.arbitr.ru), сайт суда района, банк данных ФССП — по имени продавца или компании.</small></span></label>
+<label><input type="checkbox"><span><b>Согласие супруга (если продаёт физлицо)</b></span></label>
+<label><input type="checkbox"><span><b>История переходов права</b><small>Много перепродаж за короткий срок — повод спросить, почему.</small></span></label>
+<label><input type="checkbox"><span><b>Деньги — после регистрации</b><small>Аккредитив или безопасная сделка через банк, а не наличные «под расписку».</small></span></label>
+</section>
+
+<section class="flags">
+<h2>Красные флаги — повод уйти</h2>
+<ul>
+<li>Продавец не даёт кадастровый номер «до встречи».</li>
+<li>«ВРИ поменяем потом, это формальность».</li>
+<li>ЛЭП «уберут» или «перенесут» — без бумаги от сетевой компании.</li>
+<li>Мощность «есть», но договора нет.</li>
+<li>Торопят с задатком: «завтра заберут».</li>
+</ul>
+</section>
+
+<section class="cta">
+<h2>Не хотите проверять каждый участок сами?</h2>
+<p>Технопарк «Можайский» — участки от 20 соток под склад, производство и сервис, Минское направление, Московская область. Участки подбираем под задачу: что ставите, сколько нужно площади и киловатт.</p>
+<a class="btn" href="https://технопарк-можайский.рф/" target="_blank" rel="noopener">Посмотреть участки</a>
+<a class="btn ghost noprint" href="#" onclick="print();return false">Распечатать чек-лист</a>
+</section>
+
+<footer>Справочный материал, не юридическая консультация. Перед сделкой проверяйте актуальные данные в Росреестре и у администрации округа.</footer>
+</div>
+<script>
+(function(){
+var boxes=[].slice.call(document.querySelectorAll('input[type=checkbox]')),K='proverka-uchastka-v1',saved=[];
+try{saved=JSON.parse(localStorage.getItem(K)||'[]')}catch(e){}
+boxes.forEach(function(b,i){b.checked=!!saved[i];b.addEventListener('change',upd)});
+document.getElementById('reset').addEventListener('click',function(e){e.preventDefault();boxes.forEach(function(b){b.checked=false});upd()});
+function upd(){var n=boxes.filter(function(b){return b.checked}).length;
+document.getElementById('cnt').textContent=n+' из '+boxes.length;
+document.getElementById('bar').style.width=(100*n/boxes.length)+'%';
+try{localStorage.setItem(K,JSON.stringify(boxes.map(function(b){return b.checked})))}catch(e){}}
+upd();
+})();
+</script>
+</body>
+</html>
